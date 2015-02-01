@@ -1,25 +1,9 @@
 # Out-of-order Superscalar Performance Analyzing and Enhancing
 This is the final project of EE557. It has two parts actually, the first part is designed to let us be familiar with the tools and the structure. The second part is using what we learnt in part1 to improve the perfomance of this superscalar to the most with limited resources (area, transistor count).<br />
 I need to modify the settings, calculate the value, fill in the file and simulate. Again and again, the procedure is quite tedious, time-consuming and error-prone if doing manually. <br />
-So I wrote [a perl script](https://github.com/CWang24/Out-of-order-Superscalar-Performance-Analyzing-and-Enhancing/blob/master/cw557.pl) and do the iteration with it. The flowchart below basically summerizes the perl script. (Start from "Setting Info" in the top right corner)
+So I wrote [a perl script](https://github.com/CWang24/Out-of-order-Superscalar-Performance-Analyzing-and-Enhancing/blob/master/cw557.pl) and do the iterations with it. The flowchart below basically summerizes this perl script. <br />
+(Start from "Setting Info" in the top right corner following the solid blue arrow to the left)
 ![image] (https://dl.dropboxusercontent.com/s/4t86k91wq204xr7/pic3.png?dl=0)
-
-Improve the performance of the baseline processor with limited resources (area, transistor count), by iteratively looking for an optimal design choice for all the micro-architectural blocks like adjusting branch and cache configuration. Exploring the design space using simulations. Individual project. 
-Wrote Perl script to automatically modify and read result of Excel based Estimator and online webpage based estimate tool (Cacti).
-Wrote Perl script to automatically modify the configuration file and test with four benchmarks on UNIX system and parse the test results log files for performance calculating.
-
-The Cacti 5.3 simulator is available on the net at http://quid.hpl.hp.com:9081/cacti/
-
-The SimpleScalar simulator has been installed on the ITS machines (aludra.usc.edu or nunki.usc.edu).
-
-We will be using two SPEC CPU2000 (http://www.spec.org/cpu2000/) benchmarks i.e. gzip for integer
-benchmark and equake for floating point benchmark. 
-
-limit all our simulations to only 75 million instructions. We will fast-forward through first 300 million
-instructions. 
-
--max:inst 75000000
--fastfwd 300000000
 #### Project Environment
 ###### a.SimpleScalar Simulator and Benchmarks
 SimpleScalar (http://www.simplescalar.com) is a suite of several simulators, which simulate the machine
@@ -40,6 +24,7 @@ SimpleScalar configuration parameters. The tool is implemented as an MS Excel sp
 “realEstimator.xls” 
 
 ###### d. Simulator (sim-outorder) Configuration
+
 
 
 
