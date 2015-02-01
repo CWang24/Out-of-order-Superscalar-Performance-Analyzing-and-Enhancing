@@ -38,8 +38,8 @@ SimpleScalar configuration parameters. The tool is implemented as an MS Excel sp
 
 ###### d. Simulator (sim-outorder) Configuration
 
-![image] (https://dl.dropboxusercontent.com/s/s4hg8e8nduhd6hi/pic3.bmp)
 
+![image] (https://dl.dropboxusercontent.com/s/4t86k91wq204xr7/pic3.png?dl=0)
 
 
 
