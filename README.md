@@ -1,5 +1,8 @@
 # Out-of-order Superscalar Performance Analyzing and Enhancing
-This is the projects of EE557. It has two parts actually, the first part is designed to let us be familiar with the tools and the structure. The second part is using what we learnt in part1 boost the perfomance of this superscalar to the most.
+This is the final project of EE557. It has two parts actually, the first part is designed to let us be familiar with the tools and the structure. The second part is using what we learnt in part1 to improve the perfomance of this superscalar to the most with limited resources (area, transistor count).<br />
+I need to modify the settings, calculate the value, fill in the file and simulate. Again and again, the procedure is quite tedious, time-consuming and error-prone if doing manually. <br />
+So I wrote [a perl script](https://github.com/CWang24/Out-of-order-Superscalar-Performance-Analyzing-and-Enhancing/blob/master/cw557.pl) and do the iteration with it. The flowchart below basically summerizes the perl script. (Start from "Setting Info" in the top right corner)
+![image] (https://dl.dropboxusercontent.com/s/4t86k91wq204xr7/pic3.png?dl=0)
 
 Improve the performance of the baseline processor with limited resources (area, transistor count), by iteratively looking for an optimal design choice for all the micro-architectural blocks like adjusting branch and cache configuration. Exploring the design space using simulations. Individual project. 
 Wrote Perl script to automatically modify and read result of Excel based Estimator and online webpage based estimate tool (Cacti).
@@ -39,7 +42,7 @@ SimpleScalar configuration parameters. The tool is implemented as an MS Excel sp
 ###### d. Simulator (sim-outorder) Configuration
 
 
-![image] (https://dl.dropboxusercontent.com/s/4t86k91wq204xr7/pic3.png?dl=0)
+
 
 
 
