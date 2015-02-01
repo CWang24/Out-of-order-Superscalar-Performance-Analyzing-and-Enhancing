@@ -14,11 +14,11 @@ at different levels of detail. It is intalled on the server with all the benchma
 The hardware complexity estimation tool can estimate the transistor count and chip space based on the SimpleScalar configuration parameters. The tool is implemented as an MS Excel spreadsheet, “realEstimator.xls”.
 
 
-
+#### Summerize
 
 I iterated many times and left two directions of design, one is sacrifice clock period for more execution units, the other one is using less execution units for a small clock period. I adjust other parameters to achieve the highest MIPS in both design flows. The best for the first design is 3420, while the second design achieves 3438. Hence the second design is chosen as my final design.
 
-With clock cycle=0.46ns, the MIPS of the final design reaches 3438, while using 220251031transistors and 19.9mm^2 area. And this is the top3 design in that semester. 
+With clock cycle=0.46ns, the MIPS of the final design reaches 3438, while using 220251031transistors and 19.9mm^2 area. And this is the top3 design in that semester. This page is just an introduction, for detailed report please contact me via caowang34@gmail.com.
 
 
 
