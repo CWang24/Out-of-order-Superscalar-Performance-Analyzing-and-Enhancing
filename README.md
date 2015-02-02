@@ -16,9 +16,9 @@ The hardware complexity estimation tool can estimate the transistor count and ch
 
 #### Summerize
 
-I iterated many times and left two directions of design, one is sacrifice clock period for more execution units, the other one is using less execution units for a small clock period. I adjust other parameters to achieve the highest MIPS in both design flows. The best for the first design is 3420, while the second design achieves 3438. Hence the second design is chosen as my final design.
+I iterated many times and left two directions of design, one was sacrifice clock period for more execution units, the other one was using less execution units for a small clock period. I adjusted other parameters to achieve the highest MIPS in both design flows. The best for the first design was 3420, while the second design achieved 3438. So I chose the second design as my final design.
 
-With <b>clock cycle=0.46ns(2.17GHz)</b>, the MIPS of the final design reaches 3438, while using 220251031transistors and 19.9mm^2 area. And this is the top3 design in that semester. This page is just an introduction, for detailed report please contact me via caowang34@gmail.com.
+With <b>clock cycle=0.46ns(2.17GHz)</b>, the MIPS of the final design reaches 3438, while using 220251031 transistors and 19.9mm^2 area. And this was the top3 design in that semester. This page is just an introduction, for detailed report please contact me via caowang34@gmail.com.
 
 
 
